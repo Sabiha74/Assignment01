@@ -1,0 +1,38 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: Inter;
+}
+
+/* button styles */
+.common_button {
+  background-color: #1d4ed8;
+  border: none;
+  padding: 14px 40px;
+  color: white;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* navbar start */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1300px;
+  margin: auto;
+  padding: 25px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25px;
+  list-style-type: none;
+  color: #575757;
+}
+
+/* navbar end */
