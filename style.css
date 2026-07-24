@@ -114,3 +114,68 @@ nav ul {
   font-size: small;
 }
 /* speaker end */
+
+/* card start */
+.card_section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 50px;
+}
+.card_section h2 {
+  font-size: 40px;
+}
+.card_section p {
+  color: #888888;
+  font-size: small;
+  font-size: x-small;
+  padding-bottom: 15px;
+}
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 30px;
+}
+.c_basic {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid;
+  border-color: #e5e7eb;
+  border-radius: 10px;
+  padding: 30px;
+  width: 200px;
+}
+.c_basic hr {
+  height: 1px;
+  background-color: #888888;
+  border: none;
+}
+.c_basic ul {
+  padding: 10px;
+}
+.c_basic ul li::marker {
+  color: #60a5fa;
+}
+.c_basic ul li {
+  font-size: x-small;
+  padding: 5px;
+  color: #878787;
+}
+#pro {
+  background-color: #0d1b2a;
+  color: #d5d4d4;
+}
+#pro h2 {
+  color: aliceblue;
+}
+#pro p:first-child {
+  color: #60a5fa;
+  font-size: small;
+  padding-bottom: 5px;
+}
+
+/* card end */
