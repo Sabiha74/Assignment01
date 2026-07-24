@@ -1,0 +1,1 @@
+I try to make a website for a developer conference. In it, I add a navbar, a banner, speaker info, subscription cards, and a footer. Now I have to add another section. I thought of adding a form section of who want to join. If there is any better idea please let me know.
