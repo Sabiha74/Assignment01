@@ -179,3 +179,66 @@ nav ul {
 }
 
 /* card end */
+
+
+/* registration form start*/
+.registration {
+  padding: 100px 10%;
+  text-align: center;
+  background-color: #103768;
+  color: #beaef1;
+}
+
+.registration h2 {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.registration p {
+  color: #a1a0a0;
+  margin-bottom: 40px;
+}
+
+.registration-form {
+  max-width: 700px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.form-group label {
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  padding: 14px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+
+
+
+.form-group:nth-child(5),
+.form-group:nth-child(6) {
+  grid-column: 1 / -1;
+}
+
+.registration-form button {
+  grid-column: 1 / -1;
+  justify-self: center;
+  margin-top: 20px;
+}
+/* registration end */
+
