@@ -36,3 +36,33 @@ nav ul {
 }
 
 /* navbar end */
+
+/* hero start */
+#hero_b {
+  background-image:
+    linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)),
+    url(./images/banner.jpg);
+  height: 840px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner {
+  color: white;
+  text-align: center;
+  max-width: 600px;
+  font-weight: 700px;
+}
+.banner > h1 {
+  font-size: 30px;
+  height: 75px;
+}
+.banner > p {
+  height: 400px;
+}
+
+/* hero end */
